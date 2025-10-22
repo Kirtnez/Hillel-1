@@ -30,7 +30,7 @@ elif " " in user :
     print (False)
 elif user:
     for element in user :
-        if element in string.punctuation :
+        if element in nw :
             print (False)
             break
     else:
