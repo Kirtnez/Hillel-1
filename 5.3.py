@@ -1,7 +1,10 @@
 import string
 
-x = input("Введите текст #: ").title()
-z = x.replace(" ", "")
+x = input("Введите текст #: ").strip()
 for ch in string.punctuation:
-    y = z.replace(, "")
-print("#" + y)
+    x = x.replace(ch, "")
+x = x.title()
+
+
+x = x.replace(" ", "")
+print("#" + x)
